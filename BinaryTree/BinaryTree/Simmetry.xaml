@@ -1,0 +1,17 @@
+﻿<Window x:Class="BinaryTree.Simmetry"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BinaryTree"
+        mc:Ignorable="d"
+        Title="Simmetry" Height="450" Width="800">
+    <Grid>
+        <Button Content="Поиск" HorizontalAlignment="Left" Margin="669,169,0,0" VerticalAlignment="Top" Height="29" Width="59" Click="Button_Click_6"/>
+        <TextBox HorizontalAlignment="Left" Margin="537,169,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="116" Height="29"/>
+        <Button Content="Вставка" HorizontalAlignment="Left" Margin="669,203,0,0" VerticalAlignment="Top" Height="29" Width="59" Click="Button_Click_7"/>
+        <TextBox HorizontalAlignment="Left" Margin="537,203,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="116" Height="29"/>
+        <Label Content="" Name="lb1" HorizontalAlignment="Left" Margin="157,73,0,0" VerticalAlignment="Top" Height="173" Width="348"/>
+        <Button Content="Обход" HorizontalAlignment="Left" Margin="298,272,0,0" VerticalAlignment="Top" Height="37" Width="66" Click="Button_Click_5"/>
+    </Grid>
+</Window>
